@@ -3,11 +3,104 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Caladea&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+
   </head>
   <body>
 
-    <p>twebooche</p>
+    <nav class="navbar navbar-expand-lg navbar-dark" style='background-color: #505050'>
+  <a class="navbar-brand" href="#">Terra Lynn Thompson</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="static/me">About Me<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container-lg">
+
+
+<div id="intro">
+  <div class="image-header"></div>
+    <div id="intro-container">
+      <div class="row justify-content-center h-100">
+        <div class="col-md-8 my-auto text-center" style= "margin-top: 40px; ">
+            <a href="#projects" class="btn btn-primary btn-lg active" style='background-color: #129793; border-color: #fff; opacity: .90;' role="button" aria-pressed="true">View my Projects</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="row" style="margin-top: 300px">
+  <div id="projects">
+    <div class="projects-container">
+      <div class="col mb-6">
+
+
+        <div class="row justify-content-left h-100">
+
+            <h1 style='color: #FF7260;'>Featured</h1>
+
+
+          </div>
+        <div class="row justify-content-left h-100">
+            <h4>A few projects I'm proud of...</h4>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-6">
+    <div class="card">
+      <img src="/static/images/corona_virus.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">COVID2019 Tracker</h5>
+        <p class="card-text">An app that tells a story about the COVID2019 virus with interactive charts.</p>
+
+        <a href="https://covid2019tracker.appspot.com/">View Project</a>
+        <hr>
+        <a href="https://github.com/L0per/wuhan-coronavirus">View Repo</a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-6">
+    <div class="card">
+      <img src="/static/images/zone_errors.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Automated Billing Audit</h5>
+        <p class="card-text">This app was created for Hupp Draft Services, Inc. They service thousands of taps at bars and restaurants every week. It audits every single tap and ensures they are billed to the correct customer.</p>
+        <p class='card-text'>Automating this processed saved two full days worth of work and eliminated human error.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-6">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
 
   </body>
+  <sript src='static/js/index.js'></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </html>
