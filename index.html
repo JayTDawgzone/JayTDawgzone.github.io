@@ -4,97 +4,180 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Caladea&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Caladea&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://kit.fontawesome.com/4b712ca7bb.js" crossorigin="anonymous"></script>
 
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style='background-color: #505050'>
-  <a class="navbar-brand" href="#">Terra Lynn Thompson</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse ml-auto" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="static/me">About Me<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<div class="container-fluid h-100">
 
 
-<div class="container-lg">
+  <div class="row">
+    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-xs-4 fixed" >
+      <div style='position:fixed; top:0px;' id='info-container'>
 
 
-<div id="intro">
-  <div class="image-header"></div>
-    <div id="intro-container">
-      <div class="row justify-content-center h-100">
-        <div class="col-md-8 my-auto text-center" style= "margin-top: 40px; ">
-            <a href="#projects" class="btn btn-primary btn-lg active" style='background-color: #129793; border-color: #fff; opacity: .90;' role="button" aria-pressed="true">View my Projects</a>
+      <div class="row justify-content-center">
+        <h2 id='name'>Terra Lynn Thompson</h2>
+      </div>
+      <div class="row justify-content-center">
+          <img src="/static/images/profile.png" alt="" id='profile'>
+      </div>
+
+      <div class="row justify-content-center">
+          <div class="container" id='about-me'>
+            This will be where my mission statement goes or possibly a short description about me.
+          </div>
+      </div>
+
+      <div class="row justify-content-left"style='margin-top:2rem;'>
+        <ul style="list-style-type:none;">
+          <li style='margin-top:1rem;'><i class="fas fa-user"></i>About Me</li>
+          <li style='margin-top:1rem;'><i class="fas fa-briefcase"></i>Portfolio</li>
+          <li style='margin-top:1rem;'><i class="far fa-file"></i>Resume</li>
+          <li style='margin-top:1rem;'><i class="fas fa-address-book"></i>Contact</li>
+        </ul>
+      </div>
+
+      <div class="row justify-content-center" style=''>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-github"style='margin-left:1rem'></i>
+      </div>
+
+    </div>
+      </div>
+    <div class="col-lg-8 col-md-8 col-sm-7 col-xs-7 h-100" id='content'>
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+
+        </div>
+        <div class="col-lg-8 col-md-8">
+          <div class="jumbotron"id='about-me-jumbo'>
+            <div class="container">
+              <h1 class="display-3" id='jumbo-h1'>About Me</h1>
+              <!-- <p class="lead" id='jumbo-h1'>Data Analyst that specializes in building creative applications to visualize data and tell a story.</p> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="container-fluid">
+
+          <h1 id='content-h1'>What I do</h1>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="container-fluid">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
       </div>
-    </div>
-  </div>
-<div class="row" style="margin-top: 300px">
-  <div id="projects">
-    <div class="projects-container">
-      <div class="col mb-6">
+      <div class="row">
+        <div class="container-fluid">
+          <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+              <div class="card-header"><i class="fab fa-python"></i>Python</div>
+              <div class="card-body text-primary">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+              <div class="card-header"><i class="fab fa-js-square"></i>JavaScript</div>
+              <div class="card-body text-primary">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+              <div class="card-header"><i class="fas fa-database"></i></i>SQL & MongoDB</div>
+              <div class="card-body text-primary">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+              <div class="card-header"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i>HTML & CSS</div>
+              <div class="card-body text-primary">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+              <div class="card-header"><i class="fas fa-chart-line"></i>Data Analytics</div>
+              <div class="card-body text-primary">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="card border-primary mb-3" style="max-width: 18rem;">
+              <div class="card-header"><i class="fas fa-cubes"></i>VBA</div>
+              <div class="card-body text-primary">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="row">
+            <div class="container-fluid">
 
-
-        <div class="row justify-content-left h-100">
-
-            <h1 style='color: #FF7260;'>Featured</h1>
-
+              <h1 id='content-h1'>Featured Projects</h1>
+            </div>
 
           </div>
-        <div class="row justify-content-left h-100">
-            <h4>A few projects I'm proud of...</h4>
+          <div class="row">
+            <div class="container-lg">
 
+
+              <div class="card bg-dark text-white project">
+                <img src="https://www.saubereluftmitmaske.eu/wp-content/uploads/2020/01/Coronaviruses_004_lores.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Corona Vius Tracker</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
+              <div class="card bg-dark text-white project">
+                <img src="https://www.saubereluftmitmaske.eu/wp-content/uploads/2020/01/Coronaviruses_004_lores.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Corona Vius Tracker</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
+              <div class="card bg-dark text-white project">
+                <img src="https://www.saubereluftmitmaske.eu/wp-content/uploads/2020/01/Coronaviruses_004_lores.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Corona Vius Tracker</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
+              <div class="card bg-dark text-white project">
+                <img src="https://www.saubereluftmitmaske.eu/wp-content/uploads/2020/01/Coronaviruses_004_lores.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Corona Vius Tracker</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                </div>
+              </div>
+              </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="row row-cols-1 row-cols-md-3">
-  <div class="col mb-6">
-    <div class="card">
-      <img src="/static/images/corona_virus.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">COVID2019 Tracker</h5>
-        <p class="card-text">An app that tells a story about the COVID2019 virus with interactive charts.</p>
 
-        <a href="https://covid2019tracker.appspot.com/">View Project</a>
-        <hr>
-        <a href="https://github.com/L0per/wuhan-coronavirus">View Repo</a>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-6">
-    <div class="card">
-      <img src="/static/images/zone_errors.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Automated Billing Audit</h5>
-        <p class="card-text">This app was created for Hupp Draft Services, Inc. They service thousands of taps at bars and restaurants every week. It audits every single tap and ensures they are billed to the correct customer.</p>
-        <p class='card-text'>Automating this processed saved two full days worth of work and eliminated human error.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-6">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-</div>
 </div>
 
 
