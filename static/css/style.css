@@ -7,21 +7,18 @@ body {
   color: #C6C6C6;
 }
 #info-container {
-
-  /* background-image: linear-gradient(#A978DB, #99EDFF); */
   background-color: #0F0F0F !important;
-  /* position: fixed;
-  top: 20px; */
-  height: 100%;
-  width: 21.5%;
-  margin-left: 2rem;
   border: 1px solid;
   border-image: linear-gradient(45deg, #A978DB, #99EDFF) 1;
+  text-align: center;
+  padding: 2rem;
 }
 
 #name {
   color: #fff !important;
-  margin-left: 1rem;
+  /* text-align: center; */
+  margin-left: 50px;
+  margin-right: 20px;
   /* background: -webkit-linear-gradient(#A978DB, #99EDFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
@@ -45,23 +42,23 @@ body {
   height: 200px;
 }
 
-.fa-linkedin {
-  font-size:2em;
+/* .fa-linkedin {
+
   color: #C6C6C6;
-  margin: 1rem;
+  margin: 2rem;
   background: -webkit-linear-gradient(#A978DB, #99EDFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .fa-github {
-  font-size:2em;
+
   color: #C6C6C6;
-  margin: 1rem;
+  margin: 2rem;
   background: -webkit-linear-gradient(#A978DB, #99EDFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .fa-python {
   font-size:2em;
@@ -128,7 +125,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.fas {
+/* .fas {
   color: #C6C6C6;
   margin-right: 2rem;
   background: -webkit-linear-gradient(#A978DB, #99EDFF);
@@ -142,16 +139,17 @@ body {
   background: -webkit-linear-gradient(#A978DB, #99EDFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 #about-me {
-  font-size: 14px;
+  font-size: 1em;
   padding-bottom: 2rem;
   color: #C6C6C6;
   border-bottom: solid 2px;
   border-image: linear-gradient(45deg, #A978DB, #99EDFF) 1;
   margin-left: 2rem;
   margin-right: 2rem;
+  padding-top: 2rem;
 }
 
 #about-me-jumbo {
@@ -167,6 +165,11 @@ body {
 .seperator {
   margin-top: 20px;
 
+}
+
+#name {
+  margin: auto;
+  padding-bottom: 1em;
 }
 
 #content-h1 {
@@ -206,12 +209,20 @@ body {
 
 #jumbo-h1 {
   color: #fff !important;
-  opacity: 100% !important;
-  /* background: -webkit-linear-gradient(#A978DB, #99EDFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 
-.introduction {
-  font-size: 1.5em;
+.about-list {
+  color: #C6C6C6;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left:-2rem;
+  background: -webkit-linear-gradient(#A978DB, #99EDFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+li {
+        display:table;
+        font-size: 20px;
 }
