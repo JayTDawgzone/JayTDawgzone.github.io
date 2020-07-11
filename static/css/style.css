@@ -159,7 +159,31 @@ body {
   background-color: transparent, .3;
   border: solid 2px;
   border-image: linear-gradient(45deg, #A978DB, #99EDFF) 1;
+  margin-top: 2rem;
+}
 
+#portfolio-jumbo {
+  color: #C6C6C6 !important;
+  background-image: url('/static/images/data.jpeg');
+  background-position: 55% 50%;
+  background-color: transparent, .8;
+  border: solid 2px;
+  border-image: linear-gradient(45deg, #A978DB, #99EDFF) 1;
+  margin-top: 2rem;
+}
+
+#corona-project {
+  background-image: url('/static/images/corona.png');
+  background-position: 50% 50%;
+  background-color: transparent, .8;
+  margin-top: 1rem;
+}
+
+#tap-project {
+  background-image: url('/static/images/Boneyard_6.jpg');
+  background-position: 5% 25%;
+  background-color: transparent, .8;
+  margin-top: 1rem;
 }
 
 .seperator {
@@ -179,6 +203,7 @@ body {
   border-image: linear-gradient(45deg, #A978DB, #99EDFF) 1;
   color: #fff !important;
   background-image: linear-gradient(45deg, #A978DB, #99EDFF) 1;
+  margin-top: 2em;
 }
 
 .card {
