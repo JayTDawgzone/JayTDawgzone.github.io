@@ -180,10 +180,25 @@ body {
 }
 
 #tap-project {
-  background-image: url('/static/images/Boneyard_6.jpg');
-  background-position: 5% 25%;
+  background-image: url('/static/images/sacontap2.png');
+  background-position: 15% 50%;
   background-color: transparent, .8;
   margin-top: 1rem;
+}
+
+#real-estate-project {
+  background-image: url('/static/images/realestate.png');
+  background-position: 15% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent, .8;
+  margin-top: 1rem;
+}
+
+.project-description {
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(45deg, #A978DB, #99EDFF) 1;
 }
 
 .seperator {
@@ -206,7 +221,7 @@ body {
   margin-top: 2em;
 }
 
-.card {
+.skills {
   background-color: transparent;
   color: #C6C6C6 !important;
   background-color: transparent;
@@ -247,7 +262,22 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-li {
+.li-about-me {
         display:table;
         font-size: 20px;
+}
+
+.jumbo-text {
+  background-color: rgba(0, 0, 0, 0.5);;
+}
+
+.btn {color: #fff !important;}
+.btn:hover {
+  background: -webkit-linear-gradient(#A978DB, #99EDFF) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.badge-info {
+  background-color: #A978DB !important;
 }

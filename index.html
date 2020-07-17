@@ -29,12 +29,12 @@
         </div>
         <div class="row justify-content-center">
           <ul style="list-style-type:none;">
-            <li><i class="fas fa-user about-list"></i>About Me</li>
-            <li><i class="fas fa-briefcase about-list"></i>Portfolio</li>
-            <li><i class="far fa-file about-list"></i>Resume</li>
-            <li><i class="fas fa-address-book about-list"></i>Contact</li>
-            <li><i class="fab fa-linkedin about-list"></i>Linkedin</li>
-            <li><i class="fab fa-github about-list"></i>Github</li>
+            <li class='li-about-me'><i class="fas fa-user about-list"></i>About Me</li>
+            <li class='li-about-me'><i class="fas fa-briefcase about-list"></i>Portfolio</li>
+            <li class='li-about-me'><i class="far fa-file about-list"></i>Resume</li>
+            <li class='li-about-me'><i class="fas fa-address-book about-list"></i>Contact</li>
+            <li class='li-about-me'><i class="fab fa-linkedin about-list"></i>Linkedin</li>
+            <li class='li-about-me'><i class="fab fa-github about-list"></i>Github</li>
           </ul>
         </div>
       </div>
@@ -55,7 +55,7 @@
       </div>
       <div class="row">
         <div class="container-fluid">
-          <h1 id='content-h1'>What I Do:</h1>
+          <h1 id='content-h1'>What I Do</h1>
         </div>
       </div>
       <div class="row">
@@ -65,7 +65,7 @@
 <!-- Skills Badges -->
           <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card border-primary mb-3 skills" style="max-width: 18rem;">
               <div class="card-header"><i class="fab fa-python"></i>Python</div>
               <div class="card-body text-primary">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -73,7 +73,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card border-primary mb-3 skills" style="max-width: 18rem;">
               <div class="card-header"><i class="fab fa-js-square"></i>JavaScript</div>
               <div class="card-body text-primary">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -81,7 +81,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card border-primary mb-3 skills" style="max-width: 18rem;">
               <div class="card-header"><i class="fas fa-database"></i></i>SQL & MongoDB</div>
               <div class="card-body text-primary">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -89,7 +89,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card border-primary mb-3 skills" style="max-width: 18rem;">
               <div class="card-header"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i>HTML & CSS</div>
               <div class="card-body text-primary">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -97,7 +97,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card border-primary mb-3 skills" style="max-width: 18rem;">
               <div class="card-header"><i class="fas fa-chart-line"></i>Data Analytics</div>
               <div class="card-body text-primary">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -105,7 +105,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-            <div class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card border-primary mb-3 skills" style="max-width: 18rem;">
               <div class="card-header"><i class="fas fa-cubes"></i>VBA</div>
               <div class="card-body text-primary">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -127,36 +127,108 @@
           </div>
           <div class="row">
             <div class="container-fluid">
-              <h1 id='content-h1'>Projects:</h1>
+              <h1 id='content-h1'>Projects</h1>
             </div>
           </div>
+          <div class="col-xl-8">
 
-          <div class="row">
-              <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-sm-12">
-                <div class="jumbotron" id='corona-project'>
-                  <div class="container">
-                    <h3 class="display-4" id='jumbo-h1'>COVID-2019 Tracker</h3>
-                    <p class='lead'>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-                    <a class="btn btn-dark btn-lg" href="http://covid2019-tracker.appspot.com/" role="button">Learn more</a>
+            <div class="row">
+              <div class="container">
+              <div class="accordion" id="accordionExample">
+                <div class="card bg-secondary">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h3>COVID2019 Tracker</h3>
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <div class="row">
+                        <h5>Skills: <span class="badge badge-info">Python</span> <span class="badge badge-info">Javascript</span> <span class="badge badge-info">D3.js</span> <span class="badge badge-info">Leaflet</span>
+                          <span class="badge badge-info">MongoDB</span> <span class="badge badge-info">HTML</span> <span class="badge badge-info">Bootstrap4</span> <span class="badge badge-info">CSS</span> <span class="badge badge-info">Data Analytics</span></h5>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <p>This is a detailed data analysis application that tracked the infections of the COVID2019 pandemic as it unfolded. The app has several interactive visualizations that update as more data sourced from John Hopkin's University is added to its database.</p>
+                        <p>Visualizations:</p>
+                        <ul>
+                          <li>A timelapse-map showing the spread of the virus throughout the world.</li>
+                          <li>Comparisons of the spreadrate in countries once 100 cases were confirmed.</li>
+                          <li>Infection, recovery, and mortality totals and rates over time.</li>
+                          <li>Visualization of the COVID2019 mortality rate compared to other infectious diseases.</li>
+                          <li>Interactive chart that visualizes the R0 value (spread rate) of COVID2019.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-secondary">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h3>Sacramento On Tap</h3>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <div class="row">
+                        <h5>Skills: <span class="badge badge-info">Python</span> <span class="badge badge-info">Javascript</span> <span class="badge badge-info">D3.js</span> <span class="badge badge-info">Leaflet</span>
+                          <span class="badge badge-info">MongoDB</span> <span class="badge badge-info">HTML</span> <span class="badge badge-info">Bootstrap4</span> <span class="badge badge-info">CSS</span></h5>
+                      </div>
+
+                      <hr>
+                      <div class="row">
+                        <p>Sacramento On Tap lets you find beers on tap at over 1,500 local restaurants. You can either search by beer or by restaurant and the results will populate on an interactive map. However, due to COVID19 most bars and restaurants have closed and the data is no longer up-to-date.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-secondary">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h3>SpaceRentz.com</h3>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <div class="row">
+                        <h5>Skills: <span class="badge badge-info">Python</span> <span class="badge badge-info">Django</span> <span class="badge badge-info">Javascript</span>
+                          <span class="badge badge-info">PostgresSQL</span> <span class="badge badge-info">HTML</span> <span class="badge badge-info">Bootstrap4</span> <span class="badge badge-info">CSS</span></h5>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <p>This Django application was designed for a real-estate investor that wanted a tool to manage their many properties and share them with potential buyers.</p>
+                        <p>Users with admin credentials are able to view and manage confidential information about each property including: job tracking, expenses, mortgage information, and net operating income. Regular visitors only see a standard real estate listing with basic information about the property.</p>
+                        <p>The admin section gives the user front-end access to the SQL database to easily search for records, upload forms and images, and manage their properties.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-secondary">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <h3>SpaceRentz.com</h3>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>
+            </div>
+
           </div>
-
-          <div class="row">
-              <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-sm-12">
-                <div class="jumbotron" id='tap-project'>
-                  <div class="container">
-                    <h3 class="display-4" id='jumbo-h1'>Sacramento on Tap</h3>
-                    <p class='lead'>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-                    <a class="btn btn-dark btn-lg" href="http://covid2019-tracker.appspot.com/" role="button">Learn more</a>
-                  </div>
-                </div>
-              </div>
-          </div>
-
-
-
 
         </div>
       </div>
@@ -166,4 +238,7 @@
     </div>
   </div>
   </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </html>
