@@ -42,24 +42,6 @@ body {
   height: 200px;
 }
 
-/* .fa-linkedin {
-
-  color: #C6C6C6;
-  margin: 2rem;
-  background: -webkit-linear-gradient(#A978DB, #99EDFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.fa-github {
-
-  color: #C6C6C6;
-  margin: 2rem;
-  background: -webkit-linear-gradient(#A978DB, #99EDFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
-
 .fa-python {
   font-size:2em;
   color: #C6C6C6;
@@ -125,21 +107,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* .fas {
-  color: #C6C6C6;
-  margin-right: 2rem;
-  background: -webkit-linear-gradient(#A978DB, #99EDFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.far {
-  color: #C6C6C6;
-  margin-right: 2rem;
-  background: -webkit-linear-gradient(#A978DB, #99EDFF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
 
 #about-me {
   font-size: 1em;
@@ -229,6 +196,18 @@ body {
   border-image: linear-gradient(45deg, #A978DB, #99EDFF) 1;
 }
 
+.right-border {
+  background-color: transparent;
+  color: #C6C6C6 !important;
+  background-color: transparent;
+  border-right: solid 2px;
+  border-image: linear-gradient(45deg, #A978DB, #99EDFF) 1;
+}
+
+.skills-body {
+
+}
+
 .card-header {
   padding: 0px;
   color: #fff;
@@ -262,6 +241,19 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.resume-list {
+  display:table;
+
+}
+
+.experience-title {
+  font-size: 20px;
+}
+
+.experience-date {
+  font-size: 12px;
+}
+
 .li-about-me {
         display:table;
         font-size: 20px;
@@ -280,4 +272,25 @@ body {
 
 .badge-info {
   background-color: #A978DB !important;
+}
+
+.custom-shape-divider-top-1595057373 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1595057373 svg {
+    position: relative;
+    display: block;
+    width: calc(146% + 1.3px);
+    height: 72px;
+}
+
+.custom-shape-divider-top-1595057373 .shape-fill {
+    fill: #C1C1C3;
 }
