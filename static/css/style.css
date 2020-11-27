@@ -4,6 +4,10 @@
   margin-top: 2rem;
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #dad7db;
 }
@@ -43,14 +47,36 @@ body {
   width: 50px;
 }
 
-.svg-text {
+.background-img {
+
+  opacity: 0.80;
+}
+
+.jumbo-text {
   position: absolute;
-  z-index: 10;
-  top:50%;
+  top:40%;
   left:50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  z-index: 10;
 }
+
+.svg-h1{
+  color: #fff;
+  font-size: 4em;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+.svg-h4{
+  color: #fff;
+  font-size:1.5em;
+  z-index: 10;
+}
+
+button.ui.teal.button.disabled{
+  opacity: 1!important;
+}
+
 
 .ui.statistics .statistic>.value .icon {
   color: #A978DB;
@@ -136,9 +162,9 @@ body {
   background-color: #fff;
 }
 
-.ui.special.cards {
+/* .ui.special.cards {
   margin-left: 0px;
-}
+} */
 
 .ui.icon.header .icon {
   color: #1f5370;
@@ -148,7 +174,12 @@ body {
 
 #projects {
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+}
+
+#services {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #project-row {
@@ -156,62 +187,95 @@ body {
 }
 
 #about-me {
-  margin-bottom: 10%;
-}
-
-#resume {
   margin-bottom: 5%;
 }
 
-
-.custom-shape-divider-bottom-1600761940 {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+#contact {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-.custom-shape-divider-bottom-1600761940 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 103px;
-    transform: rotateY(180deg);
+#resume {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-.custom-shape-divider-bottom-1600761940 .shape-fill {
-    fill: #1f5370;
+#skills {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1600761940 svg {
-        width: calc(100% + 1.3px);
-        height: 52px;
-    }
+.hammie svg{
+  position: relative;
+  width: 70%;
+  padding-bottom: -200%;
+  padding-top: -100%;
 }
+
 
 .footer {
   background-color: #1f5370;
-  height:100px;
+  height:150px;
   color: #fff;
 }
 
 #skill-bars {
-  background-color: #dad7db;
+  background-color: #fff;
   border: 0px;
   justify-content: center;
 }
 
 #about-me-grid {
-  background-color: #fff;
   margin-left: 10%;
   margin-right:10%;
+}
+
+.about-me-column {
+  background-color: #fff;
+  padding: 2%;
 }
 
 #resume-column {
   padding-right: 10%;
   padding-left: 10%;
+}
+
+.left-aligned-container {
+  float: left !important;
+  text-align: left;
+  margin-top: 5%;
+  font-size: 1.25rem;
+}
+
+.quote-text {
+  font-size: 2rem;
+  color: #78848a;
+}
+
+.services-img {
+  height: 25%;
+}
+
+.services-margin-zero {
+  margin-right: 0% !important;
+}
+
+.services-margin-padding {
+  padding-right: 5% !important;
+}
+
+.portfolio-project-padding {
+  padding-left: 5% !important;
+}
+
+.portfolio-project-padding-right {
+  padding-right: 10% !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.ui.fluid.styled.accordion {
+  font-size: 1.25em;
 }
